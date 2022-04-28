@@ -1,0 +1,19 @@
+.section.portfolio {
+  background-color: var(--primary-white-color);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+  margin-bottom: 34px;
+  //   margin-top: 94px;
+}
+
+.menu-list .item {
+  margin-right: 8px;
+}
+
+.menu-list .item:last-child {
+  margin-right: 0px;
+}

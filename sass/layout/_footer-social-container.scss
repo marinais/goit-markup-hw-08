@@ -1,0 +1,22 @@
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-social-container {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.footer-social-title {
+  min-width: 145px;
+  height: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
