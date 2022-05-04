@@ -61,11 +61,73 @@
             </a>
           </li>
         </ul>
+        <button type="button" class="mobile-menu-button" data-menu-open>
+          <svg class="mobile-menu-button__icon" width="40" height="40">
+            <use href="./images/sprite.svg#burger-menu-icon"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button
+            type="button"
+            class="mobile-menu__close-button"
+            data-menu-close
+          >
+            <svg class="mobile-menu__close-icon" width="40" height="40">
+              <use href="./images/sprite.svg#close-icon"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-nav">
+            <li class="mobile-nav__item">
+              <a href="./index.html" class="mobile-nav__link link current"
+                >Студия</a
+              >
+            </li>
+            <li class="mobile-nav__item">
+              <a href="./portfolio.html" class="mobile-nav__link link"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mobile-nav__item">
+              <a href="" class="mobile-nav__link link">Контакты</a>
+            </li>
+          </ul>
+
+          <div class="container communication-container">
+            <ul class="mobile-communication">
+              <li class="mobile-communication__item">
+                <a
+                  href="tel:+380961111111"
+                  class="mobile-communication__link-phone"
+                >
+                  +38 096 111 11 11
+                </a>
+              </li>
+
+              <li class="mobile-communication__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-communication__link-email"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mobile-social">
+              <li><a href="" class="mobile-social__item">Instagram</a></li>
+              <li><a href="" class="mobile-social__item">Twitter</a></li>
+              <li><a href="" class="mobile-social__item">Facebook</a></li>
+              <li><a href="" class="mobile-social__item">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div>
           <h1 class="hero-title">
             Эффективные решения <br />
@@ -75,9 +137,9 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <ul class="feature-list">
             <li class="feature-list__item">
@@ -138,9 +200,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section about">
+      <!-- <section class="section about">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="about-list">
@@ -173,9 +235,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section team">
+      <!-- <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list">
@@ -409,10 +471,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
       <div class="container">
         <div>
           <a href="./index.html" lang="en" class="footer-logo">
@@ -493,7 +555,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -585,5 +647,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

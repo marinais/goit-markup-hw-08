@@ -1,6 +1,4 @@
 .logo {
-  margin-right: 93px;
-
   color: #000000;
   font-family: Raleway;
   font-weight: bold;
@@ -9,6 +7,10 @@
 
   &-first-part {
     color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
   }
 }
 
