@@ -1,19 +1,10 @@
-// .container {
-//   position: relative;
-//   width: 1200px;
-//   margin: 0 auto;
-//   padding: 0 15px;
-// }
-
 .container {
-  padding: 0 15px;
-
-  @media screen and (min-width: 480px) {
-    width: 448px;
+  @media screen and (max-width: 767px) {
+    width: 450px;
     margin: 0 auto;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (min-width: 1199px) {
     width: 738px;
     margin: 0 auto;
   }
@@ -22,6 +13,7 @@
     position: relative;
     width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 }
 

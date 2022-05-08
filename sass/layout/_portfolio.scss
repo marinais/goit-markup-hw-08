@@ -4,10 +4,6 @@
 
 .menu-list {
   display: flex;
-  justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
-  //   margin-top: 94px;
 }
 
 .menu-list .item {
@@ -16,4 +12,36 @@
 
 .menu-list .item:last-child {
   margin-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-list {
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 40px;
+  }
+
+  .menu-list .item {
+    margin-bottom: 15px;
+  }
+
+  .menu-list .item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .menu-list {
+    justify-content: center;
+    padding-bottom: 16px;
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-list {
+    justify-content: center;
+    padding-bottom: 16px;
+    margin-bottom: 34px;
+  }
 }

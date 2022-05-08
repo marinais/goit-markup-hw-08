@@ -125,7 +125,6 @@
     width: auto;
     padding: 0px;
     margin-bottom: 48px;
-
     @media screen and (max-height: 520px) {
       position: static;
     }
@@ -184,7 +183,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
     height: 80px;
   }
@@ -243,9 +242,10 @@
   }
 
   .communication {
-    display: block;
+    // display: flex;
 
-    // margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .communication__item:not(:last-child) {
@@ -282,6 +282,13 @@
 @media screen and (min-width: 1200px) {
   .header {
     height: 80px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: none;
   }
 
   .navigation {
@@ -334,6 +341,13 @@
   .communication {
     display: flex;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .communication__item {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .communication__item + .communication__item {

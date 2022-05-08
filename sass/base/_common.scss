@@ -35,8 +35,18 @@ img {
   height: auto;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
+@media screen and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+  }
 }
