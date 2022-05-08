@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.mobile-menu {
+  z-index: 1;
+}
+
 @media screen and (max-width: 767px) {
   .site-nav {
     display: none;
@@ -243,7 +247,6 @@
 
   .communication {
     // display: flex;
-
     margin-top: auto;
     margin-bottom: auto;
   }

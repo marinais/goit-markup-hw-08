@@ -80,7 +80,7 @@
     flex-wrap: nowrap;
   }
 
-  .feature-list__item:not(:first-child) {
+  .feature-list__item:not(:last-child) {
     margin-right: 30px;
   }
 

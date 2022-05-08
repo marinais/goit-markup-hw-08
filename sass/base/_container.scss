@@ -4,7 +4,7 @@
     margin: 0 auto;
   }
 
-  @media screen and (min-width: 768px) and (min-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 738px;
     margin: 0 auto;
   }

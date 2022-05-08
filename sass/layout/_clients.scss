@@ -2,16 +2,8 @@
   display: flex;
   flex-wrap: wrap;
 
-  // & .item + .item {
-  //   margin-left: 30px;
-  // }
-
   & .item {
-    // display: flex;
-    // max-width: 210px;
     height: 92px;
-    // margin-right: 30px;
-    // margin-bottom: 30px;
   }
 }
 
@@ -19,8 +11,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // width: 170px;
-  // width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -69,6 +59,7 @@
     width: 210px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients-list {
     & .item {
