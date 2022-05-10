@@ -154,7 +154,7 @@
 
   &::before {
     display: inline-block;
-    background-image: url("/images/checkbox.svg");
+    background-image: url("../images/checkbox.svg");
     width: 16px;
     height: 15px;
     cursor: pointer;
@@ -169,7 +169,7 @@
 
     .contact-form-checkbox:checked + & {
       opacity: 2;
-      background-image: url("/images/checkbox-accept.svg");
+      background-image: url("../images/checkbox-accept.svg");
       background-color: var(--accent-color);
       border-radius: 2px;
     }
