@@ -491,7 +491,7 @@ img {
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   opacity: 2;
-  background-image: url("../images/checkbox-accept.svg");
+  background-image: url("./images/checkbox-accept.svg");
   background-color: var(--accent-color);
   border-radius: 2px;
 }

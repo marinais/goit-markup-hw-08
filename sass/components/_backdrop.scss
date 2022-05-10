@@ -169,7 +169,7 @@
 
     .contact-form-checkbox:checked + & {
       opacity: 2;
-      background-image: url("../images/checkbox-accept.svg");
+      background-image: url("./images/checkbox-accept.svg");
       background-color: var(--accent-color);
       border-radius: 2px;
     }
