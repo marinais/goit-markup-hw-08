@@ -19,11 +19,11 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/mobile-bg-hero-img.jpg");
+      url("../images/mobile-bg-hero-img.jpg");
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/mobile-bg-hero-img@2x.jpg");
+      background-image: url("../images/mobile-bg-hero-img@2x.jpg");
     }
   }
 }
@@ -39,11 +39,11 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/tablet-bg-hero-img.jpg");
+      url("../images/tablet-bg-hero-img.jpg");
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/tablet-bg-hero-img@2x.jpg");
+      background-image: url("../images/tablet-bg-hero-img@2x.jpg");
     }
   }
 }

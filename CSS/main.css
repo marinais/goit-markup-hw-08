@@ -491,7 +491,7 @@ img {
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   opacity: 2;
-  background-image: url("./images/checkbox-accept.svg");
+  background-image: url("../images/checkbox-accept.svg");
   background-color: var(--accent-color);
   border-radius: 2px;
 }
@@ -900,14 +900,14 @@ img {
     width: 100%;
     min-height: 400px;
     padding-top: 118px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/mobile-bg-hero-img.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/mobile-bg-hero-img.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/mobile-bg-hero-img.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile-bg-hero-img.jpg");
   }
 }
 
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("/images/mobile-bg-hero-img@2x.jpg");
+    background-image: url("../images/mobile-bg-hero-img@2x.jpg");
   }
 }
 
@@ -916,14 +916,14 @@ img {
     width: 100%;
     min-height: 400px;
     padding-top: 118px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/tablet-bg-hero-img.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/tablet-bg-hero-img.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/tablet-bg-hero-img.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet-bg-hero-img.jpg");
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("/images/tablet-bg-hero-img@2x.jpg");
+    background-image: url("../images/tablet-bg-hero-img@2x.jpg");
   }
 }
 
